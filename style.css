@@ -25,6 +25,11 @@ nav a {
     text-decoration: none;
 }
 
+article {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
 h1 {
     color:#023047;
     text-align: center;
