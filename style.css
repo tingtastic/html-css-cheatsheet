@@ -43,6 +43,7 @@ h2 {
 table {
     border: 5px solid #023047;
     background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
 }
 
 thead {
