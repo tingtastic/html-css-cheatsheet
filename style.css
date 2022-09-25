@@ -1,0 +1,55 @@
+body{
+    background-color: #FC8553;
+    font-family: serif;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+}
+
+nav {
+    background-color: #023047;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none
+}
+
+nav ul li {
+    display: inline;
+    padding: 50px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    color:#023047;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color:#023047;
+}
+
+table {
+    border: 5px solid #023047;
+    background-color: #F5F5F5;
+}
+
+thead {
+    background-color: #FFB703;
+}
+
+td {
+    border-top: 1px solid black;
+}
+
+.code {
+    font-family: monospace;
+    background-color:grey;
+    color: white;
+}
