@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
-    <title>Table</title>
+    <title>Table Styling</title>
 </head>
 <body>
     <header>
@@ -33,74 +33,43 @@
             </ul>
         </nav>
     </header>
-    <h1>HTML Table Reference</h1>
+    <h1>CSS Table Reference</h1>
     <article>
-        <h2>Table Tags</h2>
+        <h2>Table Property</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Tag</th>
+                    <th>Property</th>
                     <th>Name</th>
                     <th>Description</th>
+                    <th>Example</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td><span class="code">&lt;table&gt;</span></td>
-                    <td>Table</td>
-                    <td>The wrapper element for all HTML tables</td>
+                    <td><span>border</span></td>
+                    <td>Table Border</td>
+                    <td>Specifies table borders</td>
+                    <td class="padding-cell"><span class="code">border: 1px solid;</span></td>
                 </tr>
                 <tr>
-                    <td><span class="code">&lt;thead&gt;</span></td>
+                    <td><span>width</span></td>
                     <td>Table Head</td>
-                    <td>The set of rows defining the column headers in a table.</td>
+                    <td>To span the entire screen</td>
+                    <td class="padding-cell"><span class="code">width: 100%;</span></td>
                 </tr>
                 <tr>
-                    <td><span class="code">&lt;tbody&gt;</span></td>
-                    <td>Table Body</td>
-                    <td>The wrapper element for all HTML tables</td>
+                    <td><span>border collapse</span></td>
+                    <td>Collapse Table Borders</td>
+                    <td>To collapse table borders into a single border</td>
+                    <td class="padding-cell"><span class="code">border-collapse: collapse;</span></td>
                 </tr>
-                <tr>
-                    <td><span class="code">&lt;tr&gt;</span></td>
-                    <td>Table Row</td>
-                    <td>The table row container.</td>
-                </tr>
-                <tr>
-                    <td><span class="code">&lt;td&gt;</span></td>
-                    <td>Table Data</td>
-                    <td>The table row container.</td>
-                </tr>
-                <tr>
-                    <td><span class="code">&lt;tfoot&gt;</span></td>
-                    <td>Table Foot</td>
-                    <td>The set of rows defining the footer in a table.</td>
-                </tr>
+
+
+
             </tbody>
         </table>
     </article>
-    <article>
-        <h2>Table Tags</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Attribute</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><span class="code">colspan</span></td> 
-                    <td>Column Span</td>
-                    <td>Defines how many columns a td element should span.</td>
-                </tr>
-                <tr>
-                    <td><span class="code">rowspan</span></td>
-                    <td>Row Span</td>
-                    <td>Defines how many rows a td element should span.</td>
-                </tr>
-            </tbody>
-        </table>
-    </article>
+
 </body>
 </html>

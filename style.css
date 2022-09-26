@@ -70,6 +70,7 @@ table {
     border: 5px solid #023047;
     background-color: #F5F5F5;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 thead {
@@ -81,8 +82,18 @@ td {
     padding: 5px;
 }
 
+.padding-cell {
+    white-space: nowrap;
+}
+
 .code {
     font-family: monospace;
     background-color:grey;
     color: white;
+}
+
+.highlight {
+    font-family: monospace;
+    background-color:yellow;
+    color: black;
 }
